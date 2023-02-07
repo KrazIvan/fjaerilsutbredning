@@ -7,8 +7,11 @@ help of observation data from Artdatabanken (a site from SLU, Sveriges lantbruks
 
 ## The program answers the following questions: ##
 • At what rate has the purple emperor spread northward?
+
 • How has the number of observations changed over time?
+
 • When did the purple emperor arrive in Gotland?
+
 • What time of the year is the purple emperor active?
 
 ## Data ##
