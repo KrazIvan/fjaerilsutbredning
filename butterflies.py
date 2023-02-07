@@ -37,6 +37,8 @@ plt.plot(years_list, northmost_list)
 plt.xlabel("Year")
 plt.ylabel("Northernmost Latitude")
 plt.title("Spread of Purple Emperor Butterflies (Northernmost Latitude Over Time)")
+plt.tick_params(axis='x', which='major', labelsize=5)
+plt.tight_layout()
 plt.savefig("Purple Emperor Spread (Northernmost Latitude Over Time).pdf")
 #plt.show() #<------ Uncomment to show
 plt.close()
@@ -47,6 +49,8 @@ plt.plot(years_list, average_latitudes)
 plt.xlabel("Year")
 plt.ylabel("Average Latitude")
 plt.title("Spread of Purple Emperor Butterflies (Average Latitude Over Time)")
+plt.tick_params(axis='x', which='major', labelsize=5)
+plt.tight_layout()
 plt.savefig("Purple Emperor Spread (Average Latitude Over Time).pdf")
 #plt.show() #<------ Uncomment to show
 plt.close()
@@ -61,6 +65,8 @@ plt.bar(years_list, observations_list)
 plt.xlabel("Year")
 plt.ylabel("Number of Observations")
 plt.title("Number of Observations of Purple Emperor Butterflies in Sweden")
+plt.tick_params(axis='x', which='major', labelsize=5)
+plt.tight_layout()
 plt.savefig("Purple Emperor Observations.pdf")
 #plt.show() #<------ Uncomment to show
 plt.close()
@@ -80,7 +86,7 @@ with open("25_years_of_salgskimmer.csv", "r") as file:
         quantity = int(row[3])
         data.append([latitude, longitude, year, quantity])
 
-# Purple Emperor in Gotland
+# Purple Emperor observations in Gotland
 gotland_data = [x for x in data if x[0] >= 57 and x[0] < 58 and x[1] >= 18 and x[1] <= 19.3] # The latitude and longitude of Gotland.
 years = defaultdict(int)
 for row in gotland_data:
@@ -117,7 +123,7 @@ for latitude, months in latitude_to_months.items():
     x = list(months.keys())
     y = list(months.values())
     plt.plot(x, y)
-plt.legend()
+
 plt.savefig("Time of the year the Purple Emperor is active.pdf")
 #plt.show() #<------ Uncomment to show
 plt.close()
