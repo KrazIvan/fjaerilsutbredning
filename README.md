@@ -20,8 +20,12 @@ four comma-separated columns with information on observations of the purple empe
 are latitude and longitude, which describe where the observation took place (though hardly with the implied
 precision). The third column contains information on the date and time in a somewhat mysterious format.
 Take for example 2021-07-28T22:00:00.0000000Z: the date is in the standard format, but separated from the
-time with the character T. The time is also in the standard format, but with a bizarre amount of precision and
+time with the character T.
+
+The time is also in the standard format, but with a bizarre amount of precision and
 terminated with the letter Z. The fourth column contains the number of butterflies reported in the observation.
-In total, the data contains 5239 observations. This is a filtered version of the data you can download from
+In total, the data contains 5239 observations.
+
+This is a filtered version of the data you can download from
 SLU’s site https://www.artdatabanken.se. Irrelevant data and personal information (the observers’ names)
 have been removed.
