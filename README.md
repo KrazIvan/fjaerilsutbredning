@@ -1,11 +1,11 @@
 # Fjärilsutbredning #
 The purple emperor butterfly (sälgskimmerfjäril) can be found in many parts of Europe, but has until recently
 only been seen occasionally in the southernmost parts of Sweden. In the past several years, however, it has
-begun to spread north. This program investigate its spread over Sweden in the past 25 years with the
+begun to spread north. This program investigates its spread over Sweden in the past 25 years with the
 help of observation data from Artdatabanken (a site from SLU, Sveriges lantbruksuniversitet).
 
 
-## The program answers the following questions: ##
+## This program answers the following questions: ##
 • At what rate has the purple emperor spread northward?
 
 • How has the number of observations changed over time?
